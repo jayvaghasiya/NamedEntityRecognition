@@ -1,0 +1,12 @@
+python run_ner.py  --model_name_or_path 'roberta-base'  \
+--data_dir './data/' \
+--output_dir 'restaurant-model' \
+--max_seq_length '128' \
+--num_train_epochs 20 \
+--per_device_train_batch_size 8 \
+--save_steps 1000000 \
+--seed 16 \
+--do_train \
+--overwrite_output_dir \
+--labels "./data/labels.txt" \
+--fp16

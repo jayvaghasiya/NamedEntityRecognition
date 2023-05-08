@@ -1,0 +1,17 @@
+B-Rating
+I-Rating
+O
+B-Amenity
+I-Amenity
+B-Location
+I-Location
+B-Restaurant_Name
+I-Restaurant_Name
+B-Price
+B-Hours
+I-Hours
+B-Dish
+I-Dish
+B-Cuisine
+I-Price
+I-Cuisine
